@@ -23,13 +23,13 @@
     "mssql"
   ],
   "author": "Chakradhar Kowsik",
-  "homepage": "https://github.com/chakradhar-kowsik/mcp-sqlconnector",
+  "homepage": "https://github.com/chakradharkowsik/mcp-sqlconnector",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chakradhar-kowsik/mcp-sqlconnector.git"
+    "url": "https://github.com/chakradharkowsik/mcp-sqlconnector.git"
   },
   "bugs": {
-    "url": "https://github.com/chakradhar-kowsik/mcp-sqlconnector/issues"
+    "url": "https://github.com/chakradharkowsik/mcp-sqlconnector/issues"
   },
   "release": {
     "branches": [
