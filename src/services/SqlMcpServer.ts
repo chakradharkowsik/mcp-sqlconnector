@@ -22,7 +22,7 @@ export class SqlMcpServer {
         this.dbService = dbService;
         this.server = new McpServer({
             name: "sql-mcp-server",
-            version: "1.8.0",
+            version: "1.0.0",
         });
 
         // Initialize and register all services via DI
