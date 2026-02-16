@@ -14,8 +14,44 @@
     "test:ui": "vitest --ui",
     "test:coverage": "vitest run --coverage"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "modelcontextprotocol",
+    "sqlconnector",
+    "mcp",
+    "sql",
+    "sqlite",
+    "mssql"
+  ],
+  "author": "Chakradhar Kowsik",
+  "homepage": "https://github.com/chakradhar-kowsik/mcp-sqlconnector",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chakradhar-kowsik/mcp-sqlconnector.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chakradhar-kowsik/mcp-sqlconnector/issues"
+  },
+  "release": {
+    "branches": [
+      "+([0-9])?(.{+([0-9]),x}).x",
+      "master",
+      "next",
+      "next-major",
+      {
+        "name": "beta",
+        "prerelease": true
+      },
+      {
+        "name": "alpha",
+        "prerelease": true
+      }
+    ]
+  },
+  "galleryBanner": {
+    "label": "SQL Connector",
+    "background": "#2C2C2C",
+    "color": "#FFFFFF"
+  },
   "license": "ISC",
   "devDependencies": {
     "@modelcontextprotocol/sdk": "^1.26.0",
